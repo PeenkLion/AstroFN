@@ -40,7 +40,7 @@ ul li.active a{
 
 .logo img{
     float: left;
-    width: 210px;
+    width: 350px;
     height: auto;
 }
 
@@ -61,7 +61,7 @@ ul li.active a{
 
 .title h1{
     color: #fff;
-    font-size: 160px;
+    font-size: 165px;
 }
 
 .button{
@@ -85,6 +85,15 @@ ul li.active a{
     color: #000
 }
 
+.astroworld{
+    width: 75px;
+    height: auto;
+    animation: nodrop 5s ease;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+}
+
 @keyframes drop{
     0%{
         opacity: 0;
@@ -93,5 +102,14 @@ ul li.active a{
     100%{
         opacity: 1;
         transform: translate(0px);
+    }
+}
+
+@keyframes nodrop{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
