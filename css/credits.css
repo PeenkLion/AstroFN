@@ -122,7 +122,7 @@ ul li.active a{
     position: absolute;
     top: 65%;
     left: 38%;
-    animation: nodrop 3s ease;
+    animation: nodrop 5s ease;
 }
 .gd_credit{
     font-size: 15px;
