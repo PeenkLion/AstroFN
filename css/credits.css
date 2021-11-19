@@ -85,16 +85,6 @@ ul li.active a{
     color: #000
 }
 
-@keyframes drop{
-    0%{
-        opacity: 0;
-        transform: translate(+100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0px);
-    }
-}
 
 .pl_nameplate{
     font-size: 30px;
@@ -118,10 +108,35 @@ ul li.active a{
     left: 61.5%;
 }
 
+.pl_credit{
+    font-size: 15px;
+    color: rgb(255, 251, 2);
+    position: absolute;
+    top: 65%;
+    left: 22%;
+    animation: reversedrop 4s ease;
+}
+.med_credit{
+    font-size: 15px;
+    color: rgb(255, 251, 2);
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    animation: nodrop 3s ease;
+}
+.gd_credit{
+    font-size: 15px;
+    color: rgb(255, 251, 2);
+    position: absolute;
+    top: 65%;
+    left: 59%;
+    animation: drop 4s ease;
+}
+
 .pl_profile{
     position: absolute;
     top: 70%;
-    left: 22%;
+    left: 22%
 }
 .med_profile{
     position: absolute;
@@ -132,4 +147,35 @@ ul li.active a{
     position: absolute;
     top: 70%;
     left: 57%;
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translate(+100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes reversedrop{
+    0%{
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes nodrop{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
