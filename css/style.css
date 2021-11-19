@@ -88,7 +88,7 @@ ul li.active a{
 .astroworld{
     width: 75px;
     height: auto;
-    animation: nodrop 5s ease;
+    animation: nodrop 5.5s ease;
     position: absolute;
     top: 43%;
     left: 45%;
