@@ -88,10 +88,19 @@ ul li.active a{
 .astroworld{
     width: 75px;
     height: auto;
-    animation: nodrop 5.5s ease;
+    animation: nodrop 5s ease;
     position: absolute;
     top: 43%;
     left: 45%;
+}
+
+.announcement{
+    position: absolute;
+    float: top;
+    color: #9A33FF;
+    font-size: 12px;
+    animation: nodrop 3s ease;
+    left: 28%;
 }
 
 @keyframes drop{
