@@ -91,21 +91,14 @@ ul li.active a{
     color: #fff;
     position: absolute;
     top: 58%;
-    left: 21%;
+    left: 21.5%;
 }
 .med_nameplate{
     font-size: 30px;
     color: #fff;
     position: absolute;
     top: 58%;
-    left: 41%;
-}
-.gd_nameplate{
-    font-size: 30px;
-    color: #fff;
-    position: absolute;
-    top: 58%;
-    left: 61.5%;
+    left: 59%;
 }
 
 .pl_credit{
@@ -113,7 +106,7 @@ ul li.active a{
     color: rgb(255, 251, 2);
     position: absolute;
     top: 65%;
-    left: 22%;
+    left: 21%;
     animation: reversedrop 4s ease;
 }
 .med_credit{
@@ -121,15 +114,7 @@ ul li.active a{
     color: rgb(255, 251, 2);
     position: absolute;
     top: 65%;
-    left: 38%;
-    animation: nodrop 5s ease;
-}
-.gd_credit{
-    font-size: 15px;
-    color: rgb(255, 251, 2);
-    position: absolute;
-    top: 65%;
-    left: 59%;
+    left: 55%;
     animation: drop 4s ease;
 }
 
@@ -139,11 +124,6 @@ ul li.active a{
     left: 22%
 }
 .med_profile{
-    position: absolute;
-    top: 70%;
-    left: 39%;
-}
-.gd_profile{
     position: absolute;
     top: 70%;
     left: 57%;
