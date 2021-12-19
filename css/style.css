@@ -52,7 +52,7 @@ ul li.active a{
 .title{
     position: absolute;
     top: 38%;
-    left: 19%;
+    left: 25%;
     background: linear-gradient(to right, #ff0000, #ff9900);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
